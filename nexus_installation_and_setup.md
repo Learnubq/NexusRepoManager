@@ -24,12 +24,23 @@ wget https://download.sonatype.com/nexus/3/nexus-3.81.1-01-linux-x86_64.tar.gz
 3. **Untarred the nexus .tar.gz file:**
 
 ```bash
-tar -zxvf nexus-3.72.0-04-unix.tar.gz
+tar -zxvf nexus-3.81.1-01-linux-x86_64.tar.gz
 clear
 ls
 ```
-**There was now a "nexus-3.72.0-04" folder and a "sonatype-work" folder.
+**There was now a "nexus-3.81.1-01" folder and a "sonatype-work" folder.
 ![untarred](https://github.com/user-attachments/assets/b437114d-d9c2-4bf5-9ec0-b151197f0a22)
+
+4. **Check permissions of the "nexus-3.81.1-01" folder and the "sonatype-work" folder. Change their root user and root group to nexus user and nexus group (so we can run the Nexus application as the nexus user):**
+
+```bash
+ls -l
+chown -R nexus:nexus nexus-3.81.1-01
+chown -R nexus:nexus sonatype-work
+ls -l
+```
+**There was now a nexus user and nexus group assigned to the "nexus-3.81.1-01" and "sonatype-work" folders.
+![ls](https://github.com/user-attachments/assets/61214fd4-5837-4ead-b323-f6793f8bec39)
 
 
 
