@@ -18,7 +18,14 @@
 adduser nexus
 usermod -aG sudo nexus
 ```
+![pwd_nexus](https://github.com/user-attachments/assets/0ed18879-4c54-4c31-b050-54cc278bcea8)
+
 2. **Installed Java version 17 on server as root user, because that is the version that works with Nexus:**
 
 ```bash
 ssh root@droplet-server_IPaddress
+apt install openjdk-jre-headless
+java -version
+```
+![image](https://github.com/user-attachments/assets/6677ddbc-396e-4335-90c2-02db749b61a3)
+
