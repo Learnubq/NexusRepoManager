@@ -7,3 +7,5 @@
 - Location: /home/new_admin/
 
 ## Installation Steps
+
+1. 
