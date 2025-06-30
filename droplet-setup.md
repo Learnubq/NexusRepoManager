@@ -27,5 +27,6 @@ ssh root@droplet-server_IPaddress
 apt install openjdk-jre-headless
 java -version
 ```
-![image](https://github.com/user-attachments/assets/6677ddbc-396e-4335-90c2-02db749b61a3)
+![java17_install](https://github.com/user-attachments/assets/1760df58-8aa3-45fc-b8e1-a1a408125715)
+
 
