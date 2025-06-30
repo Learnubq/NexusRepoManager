@@ -11,4 +11,9 @@
 
 ### Steps Performed:
 
-1. **Created a new user named "Nexus" on the droplet server and added to sudo group:**
+1. **Created a new user named "nexus" on the droplet server and added to sudo group:**
+
+```bash
+adduser nexus
+usermod -aG sudo nexus
+```
