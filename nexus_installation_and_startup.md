@@ -29,6 +29,7 @@ clear
 ls
 ```
 **There was now a "nexus-3.81.1-01" folder and a "sonatype-work" folder.
+
 ![untarred](https://github.com/user-attachments/assets/b437114d-d9c2-4bf5-9ec0-b151197f0a22)
 
 4. **Checked permissions of the "nexus-3.81.1-01" folder and the "sonatype-work" folder. Changed their root user and root group ownership to nexus user and nexus group ownership(so I could run the Nexus application as the nexus user):**
@@ -40,6 +41,7 @@ chown -R nexus:nexus sonatype-work
 ls -l
 ```
 **There was now a nexus user and nexus group ownership assigned to the "nexus-3.81.1-01" and "sonatype-work" folders. So I could execute the application in the nexus-3.81.1-01 folder and access the sonatype-work folder to execute tasks on it.
+
 ![ls](https://github.com/user-attachments/assets/61214fd4-5837-4ead-b323-f6793f8bec39)
 
 5. **Set Nexus configuration so that I could run it as "nexus" user:**
@@ -62,6 +64,7 @@ netstat -lnpt
 ```
 
 **We can see that the nexus app was listening on Port 8081 - so to access it from the browser I needed to setup a droplet firewall rule to open all in-bound source connections to port 8081. Could now enter <droplet-IPaddress>:8081 in browser to access Nexus repository UI.
+
 ![lnpt](https://github.com/user-attachments/assets/162096c4-398d-4ae8-96c3-30870a02884a)
 
 
