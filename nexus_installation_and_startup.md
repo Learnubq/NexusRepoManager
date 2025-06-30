@@ -1,4 +1,4 @@
-![ls](https://github.com/user-attachments/assets/69347cf4-2e9b-4234-ace7-dd52ae45914d)# Nexus Installation on Droplet Server
+# Nexus Installation on Droplet Server
 
 ## Environment:
 - Host: DigitalOcean Droplet (Ubuntu 24.10 x64)
