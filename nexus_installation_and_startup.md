@@ -61,6 +61,9 @@ ps aux | grep nexus
 netstat -lnpt
 ```
 
+**We can see that the nexus app was listening on Port 8081 - so to access it from the browser I needed to setup a droplet firewall rule to open all in-bound source connections to port 8081. Could now enter <droplet-IPaddress>:8081 in browser to access Nexus repository UI.
+![lnpt](https://github.com/user-attachments/assets/162096c4-398d-4ae8-96c3-30870a02884a)
+
 
 
 
