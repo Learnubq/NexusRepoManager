@@ -74,3 +74,7 @@ ls target
 ```bash
 mvn deploy
 ```
+
+**Build was successful
+
+![mvndeployresult](https://github.com/user-attachments/assets/94abfc50-852d-4c53-b69e-6059c4f4f178)
