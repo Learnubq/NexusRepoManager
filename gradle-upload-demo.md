@@ -22,6 +22,7 @@
 
 ```bash
 cd java-app
+ls
 ```
 
 ![gradle_build](https://github.com/user-attachments/assets/6acdbb8f-1cdb-4b1e-8726-0e5f45f9934c)
