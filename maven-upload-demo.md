@@ -23,7 +23,7 @@
 ```bash
 ls -a | grep .m2
 ![m2](https://github.com/user-attachments/assets/c82d2299-972c-4897-b741-c20c43afcada)
-
+```
   
 
 ## Steps to Upload JAR File to Nexus:
