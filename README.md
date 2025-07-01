@@ -1,5 +1,5 @@
 # NexusRepoManager
-This is a repository to showcase my Nexus artifact repository manager project, for the TWN DevOps Bootcamp. I ran Nexus on a DigitalOcean droplet server and published an artifact to the Nexus repository.
+This is a repository to showcase my Nexus artifact repository manager project, for the TWN DevOps Bootcamp. I ran Nexus on a DigitalOcean droplet server and published artifacts to the Nexus repository.
 
 ## Project Description
 
