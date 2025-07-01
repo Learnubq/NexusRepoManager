@@ -6,7 +6,7 @@
 - App: Java Gradle Project
 
 
-## Gradle Setup in IDE
+## Gradle Setup in IDE:
 **Built the JAR file on my local machine after setting up
 - In build.gradle file in project directory, added a plugin for publishing a JAR to Maven formatted repository in Nexus Repository Manager
     apply plugin: 'maven-publish'
@@ -16,7 +16,7 @@
 - Executed gradle build command in IDE terminal in project working directory - JAR file was created
   
 
-##Steps to Upload JAR File to Nexus
+## Steps to Upload JAR File to Nexus:
     
 1. **Navigate to working project folder on local machine:**
 
